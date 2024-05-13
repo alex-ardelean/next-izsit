@@ -1,5 +1,5 @@
-'use client';
-import { useState } from 'react';
+"use client";
+import { useState } from "react";
 import { MinusSmallIcon, PlusSmallIcon } from "@heroicons/react/24/outline";
 
 interface AccordionItem {
@@ -24,7 +24,7 @@ export default function Accordion({ items }: AccordionProps) {
         <div key={index} className="mb-8 transition-all duration-500">
           <button
             className={`w-full text-xl flex justify-between items-center text-left  focus:outline-none focus-visible:ring ${
-                openIndex === index ? 'text-primary' : 'text-white'
+                openIndex === index ? "text-primary" : "text-white"
               }`}
             onClick={() => toggle(index)}
           >
@@ -35,7 +35,7 @@ export default function Accordion({ items }: AccordionProps) {
           </button>
           <div
             className={`transition-max-height duration-300 ease-in-out overflow-hidden ${
-              openIndex === index ? 'max-h-96' : 'max-h-0'
+              openIndex === index ? "max-h-96" : "max-h-0"
             }`}
           >
             <div className="pt-8 text-white">{item.content}</div>

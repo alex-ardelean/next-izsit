@@ -63,13 +63,11 @@ export const CREATORs = [
 ];
 
 export const LANDING_NAVITEMS = [
-    {
-      name: "Izsit TV",
-      href: "https://app.izsit.com",
-    },
-    { name: "Evertrail", href: "https://www.twitch.tv/evertrail" },
-    { name: "Contact", href: "/contact", type: "secondary" },
-    { name: "Creator Login", href: "/creator-login", type: "primary" },
+    { name: "Contact", href: "/contact" },
+    { name: "Creator Login", href: "/creator-login" },
+    { name: "Izsit TV", href: "https://app.izsit.com", type: "secondary" },
+    { name: "Evertrail", href: "https://www.twitch.tv/evertrail", type: "primary"}
+
 ];
 
 export const WHYIZSIT = [

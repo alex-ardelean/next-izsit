@@ -7,32 +7,10 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { LANDING_NAVITEMS } from "../../../utils/constants";
 
-const navigation = [
-  { name: "Join as a Creator", href: "/ai-video-creators" },
-  { name: "About", href: "/about" },
-  // { name: "AI Video News", href: "/news" }, Hiding for now.
-  { name: "Blog", href: "/blog" },
-  {
-    name: "Izsit TV",
-    href: "https://app.izsit.com",
-    badge: true,
-  },
-  { name: "Creator Portal", href: "/creator-login", type: 'primary' },
-];
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [navItems, setNavItems] = useState(navigation);
   const pathname = usePathname();
-  const currentPage = pathname.split("/")[1];
-  useEffect(() => {
-    console.log("I called");
-    if (currentPage == "landing-page") {
-      setNavItems(LANDING_NAVITEMS);
-    } else {
-      setNavItems(navItems);
-    }
-  }, [pathname]);
 
   return (
     <header className="sticky top-0 bg-gray-900 z-50">
@@ -61,20 +39,20 @@ export default function Header() {
           </button>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
-          {navItems.map((item) => (
+          {LANDING_NAVITEMS.map((item) => (
             <Link
               key={item.name}
               href={item.href}
-              target={item.name === "Izsit TV" ? "_blank" : "_self"} // Only open Izsit TV in a new tab
-              rel={item.name === "Izsit TV" ? "noopener noreferrer" : undefined} // Add security attributes only for Izsit TV
-              className={`text-sm font-semibold text-white flex items-center uppercase px-4 py-2 rounded-sm ${item?.type == 'primary' ? 'bg-primary' : item?.type == 'secondary' ? 'border border-primary' : 'px-0'}`}
+              target={item.type ? "_blank" : "_self"} // Only open Izsit TV in a new tab
+              rel={item.type ? "noopener noreferrer" : undefined} // Add security attributes only for Izsit TV
+              className={`text-sm font-semibold text-white flex items-center uppercase px-4 py-2 rounded-sm ${item?.type == "primary" ? "bg-primary" : item?.type == "secondary" ? "border border-primary" : "!px-0"}`}
             >
               {item.name}
-              {item.badge && (
+              {/* {item?.badge && (
                 <span className="ml-2 inline-flex items-center rounded-md bg-emerald-400/10 px-2 py-1 text-xs font-medium text-emerald-400 ring-1 ring-inset ring-emerald-400/30">
                   Alpha
                 </span>
-              )}
+              )} */}
             </Link>
           ))}
         </div>
@@ -112,7 +90,7 @@ export default function Header() {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/25">
               <div className="space-y-2 py-6">
-                {navigation.map((item) => (
+                {LANDING_NAVITEMS.map((item) => (
                   <Link
                     key={item.name}
                     href={item.href}
@@ -126,11 +104,11 @@ export default function Header() {
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     {item.name}
-                    {item.badge && (
+                    {/* {item.badge && (
                       <span className="ml-2 inline-flex items-center rounded-md bg-emerald-400/10 px-2 py-1 text-xs font-medium text-emerald-400 ring-1 ring-inset ring-emerald-400/30">
                         Alpha
                       </span>
-                    )}
+                    )} */}
                   </Link>
                 ))}
               </div>
