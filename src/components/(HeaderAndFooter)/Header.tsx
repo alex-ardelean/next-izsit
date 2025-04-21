@@ -54,7 +54,7 @@ export default function Header() {
               href={item.href}
               target={item.name === "Izsit TV" ? "_blank" : "_self"} // Only open Izsit TV in a new tab
               rel={item.name === "Izsit TV" ? "noopener noreferrer" : undefined} // Add security attributes only for Izsit TV
-              className="text-sm font-semibold text-white flex items-center"
+              className="text-sm font-semibold text-white flex items-center uppercase"
             >
               {item.name}
               {item.badge && (
