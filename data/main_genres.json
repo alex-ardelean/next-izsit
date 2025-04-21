@@ -1,0 +1,486 @@
+[
+  {
+    "label": "Action",
+    "value": "action"
+  },
+  {
+    "label": "Adventure Action",
+    "value": "adventure_action"
+  },
+  {
+    "label": "Martial Arts",
+    "value": "martial_arts"
+  },
+  {
+    "label": "Spy/Espionage",
+    "value": "spy_espionage"
+  },
+  {
+    "label": "Superhero",
+    "value": "superhero"
+  },
+  {
+    "label": "Disaster",
+    "value": "disaster"
+  },
+  {
+    "label": "Adventure",
+    "value": "adventure"
+  },
+  {
+    "label": "Swashbuckler",
+    "value": "swashbuckler"
+  },
+  {
+    "label": "Epic Adventure",
+    "value": "epic_adventure"
+  },
+  {
+    "label": "Treasure Hunt",
+    "value": "treasure_hunt"
+  },
+  {
+    "label": "Survival",
+    "value": "survival"
+  },
+  {
+    "label": "Comedy",
+    "value": "comedy"
+  },
+  {
+    "label": "Romantic Comedy",
+    "value": "romantic_comedy"
+  },
+  {
+    "label": "Satire/Parody",
+    "value": "satire_parody"
+  },
+  {
+    "label": "Slapstick",
+    "value": "slapstick"
+  },
+  {
+    "label": "Black Comedy",
+    "value": "black_comedy"
+  },
+  {
+    "label": "Screwball Comedy",
+    "value": "screwball_comedy"
+  },
+  {
+    "label": "Coming-of-Age Comedy",
+    "value": "coming_of_age_comedy"
+  },
+  {
+    "label": "Crime",
+    "value": "crime"
+  },
+  {
+    "label": "Gangster",
+    "value": "gangster"
+  },
+  {
+    "label": "Detective/Mystery",
+    "value": "detective_mystery"
+  },
+  {
+    "label": "Heist",
+    "value": "heist"
+  },
+  {
+    "label": "Neo-Noir",
+    "value": "neo_noir"
+  },
+  {
+    "label": "True Crime",
+    "value": "true_crime"
+  },
+  {
+    "label": "Drama",
+    "value": "drama"
+  },
+  {
+    "label": "Legal Drama",
+    "value": "legal_drama"
+  },
+  {
+    "label": "Historical Drama",
+    "value": "historical_drama"
+  },
+  {
+    "label": "Psychological Drama",
+    "value": "psychological_drama"
+  },
+  {
+    "label": "Political Drama",
+    "value": "political_drama"
+  },
+  {
+    "label": "Melodrama",
+    "value": "melodrama"
+  },
+  {
+    "label": "Fantasy",
+    "value": "fantasy"
+  },
+  {
+    "label": "High Fantasy",
+    "value": "high_fantasy"
+  },
+  {
+    "label": "Urban Fantasy",
+    "value": "urban_fantasy"
+  },
+  {
+    "label": "Dark Fantasy",
+    "value": "dark_fantasy"
+  },
+  {
+    "label": "Sword and Sorcery",
+    "value": "sword_and_sorcery"
+  },
+  {
+    "label": "Mythological Fantasy",
+    "value": "mythological_fantasy"
+  },
+  {
+    "label": "Horror",
+    "value": "horror"
+  },
+  {
+    "label": "Supernatural Horror",
+    "value": "supernatural_horror"
+  },
+  {
+    "label": "Psychological Horror",
+    "value": "psychological_horror"
+  },
+  {
+    "label": "Body Horror",
+    "value": "body_horror"
+  },
+  {
+    "label": "Slasher",
+    "value": "slasher"
+  },
+  {
+    "label": "Gothic Horror",
+    "value": "gothic_horror"
+  },
+  {
+    "label": "Monster/Creature Horror",
+    "value": "monster_creature_horror"
+  },
+  {
+    "label": "Musical",
+    "value": "musical"
+  },
+  {
+    "label": "Dance-Focused",
+    "value": "dance_focused"
+  },
+  {
+    "label": "Rock Opera",
+    "value": "rock_opera"
+  },
+  {
+    "label": "Jukebox Musical",
+    "value": "jukebox_musical"
+  },
+  {
+    "label": "Biographical Musical",
+    "value": "biographical_musical"
+  },
+  {
+    "label": "Mystery",
+    "value": "mystery"
+  },
+  {
+    "label": "Whodunit",
+    "value": "whodunit"
+  },
+  {
+    "label": "Paranormal Mysteries",
+    "value": "paranormal_mysteries"
+  },
+  {
+    "label": "Romance",
+    "value": "romance"
+  },
+  {
+    "label": "Romantic Drama",
+    "value": "romantic_drama"
+  },
+  {
+    "label": "Romantic Thriller",
+    "value": "romantic_thriller"
+  },
+  {
+    "label": "Historical Romance",
+    "value": "historical_romance"
+  },
+  {
+    "label": "Fantasy Romance",
+    "value": "fantasy_romance"
+  },
+  {
+    "label": "Science Fiction",
+    "value": "science_fiction"
+  },
+  {
+    "label": "Space Opera",
+    "value": "space_opera"
+  },
+  {
+    "label": "Cyberpunk",
+    "value": "cyberpunk"
+  },
+  {
+    "label": "Dystopian/Post-Apocalyptic",
+    "value": "dystopian_post_apocalyptic"
+  },
+  {
+    "label": "Alien Encounters",
+    "value": "alien_encounters"
+  },
+  {
+    "label": "Time Travel",
+    "value": "time_travel"
+  },
+  {
+    "label": "Zombie Apocalypse",
+    "value": "zombie_apocalypse"
+  },
+  {
+    "label": "Thriller",
+    "value": "thriller"
+  },
+  {
+    "label": "Psychological Thriller",
+    "value": "psychological_thriller"
+  },
+  {
+    "label": "Political Thriller",
+    "value": "political_thriller"
+  },
+  {
+    "label": "Legal Thriller",
+    "value": "legal_thriller"
+  },
+  {
+    "label": "Techno-Thriller",
+    "value": "techno_thriller"
+  },
+  {
+    "label": "Erotic Thriller",
+    "value": "erotic_thriller"
+  },
+  {
+    "label": "War",
+    "value": "war"
+  },
+  {
+    "label": "Anti-War",
+    "value": "anti_war"
+  },
+  {
+    "label": "Military/Combat",
+    "value": "military_combat"
+  },
+  {
+    "label": "Historical War",
+    "value": "historical_war"
+  },
+  {
+    "label": "Guerrilla Warfare",
+    "value": "guerrilla_warfare"
+  },
+  {
+    "label": "Western",
+    "value": "western"
+  },
+  {
+    "label": "Classic Western",
+    "value": "classic_western"
+  },
+  {
+    "label": "Revisionist Western",
+    "value": "revisionist_western"
+  },
+  {
+    "label": "Spaghetti Western",
+    "value": "spaghetti_western"
+  },
+  {
+    "label": "Neo-Western",
+    "value": "neo_western"
+  },
+  {
+    "label": "Biography",
+    "value": "biography"
+  },
+  {
+    "label": "Documentary",
+    "value": "documentary"
+  },
+  {
+    "label": "Mockumentary",
+    "value": "mockumentary"
+  },
+  {
+    "label": "Historical",
+    "value": "historical"
+  },
+  {
+    "label": "Period Piece",
+    "value": "period_piece"
+  },
+  {
+    "label": "Alternate History",
+    "value": "alternate_history"
+  },
+  {
+    "label": "Family",
+    "value": "family"
+  },
+  {
+    "label": "Children's Adventure",
+    "value": "childrens_adventure"
+  },
+  {
+    "label": "Animated Family Films",
+    "value": "animated_family_films"
+  },
+  {
+    "label": "Holiday-Themed Family Films",
+    "value": "holiday_themed_family_films"
+  },
+  {
+    "label": "Sports",
+    "value": "sports"
+  },
+  {
+    "label": "Sports Drama",
+    "value": "sports_drama"
+  },
+  {
+    "label": "Sports Comedy",
+    "value": "sports_comedy"
+  },
+  {
+    "label": "Underdog Stories",
+    "value": "underdog_stories"
+  },
+  {
+    "label": "Animated",
+    "value": "animated"
+  },
+  {
+    "label": "Stop-Motion",
+    "value": "stop_motion"
+  },
+  {
+    "label": "Anime",
+    "value": "anime"
+  },
+  {
+    "label": "3D Animation",
+    "value": "3d_animation"
+  },
+  {
+    "label": "Experimental",
+    "value": "experimental"
+  },
+  {
+    "label": "Surrealist",
+    "value": "surrealist"
+  },
+  {
+    "label": "Non-Narrative",
+    "value": "non_narrative"
+  },
+  {
+    "label": "Abstract",
+    "value": "abstract"
+  },
+  {
+    "label": "Noir",
+    "value": "noir"
+  },
+  {
+    "label": "Classic Film Noir",
+    "value": "classic_film_noir"
+  },
+  {
+    "label": "International Genre",
+    "value": "international_genre"
+  },
+  {
+    "label": "Bollywood",
+    "value": "bollywood"
+  },
+  {
+    "label": "Nollywood",
+    "value": "nollywood"
+  },
+  {
+    "label": "Jidaigeki",
+    "value": "jidaigeki"
+  },
+  {
+    "label": "Wuxia",
+    "value": "wuxia"
+  },
+  {
+    "label": "Telenovela Style",
+    "value": "telenovela_style"
+  },
+  {
+    "label": "K-Drama",
+    "value": "k_drama"
+  },
+  {
+    "label": "Anthology Films",
+    "value": "anthology_films"
+  },
+  {
+    "label": "Religious/Spiritual",
+    "value": "religious_spiritual"
+  },
+  {
+    "label": "Mockbuster",
+    "value": "mockbuster"
+  },
+  {
+    "label": "Found Footage",
+    "value": "found_footage"
+  },
+  {
+    "label": "Silent Films",
+    "value": "silent_films"
+  },
+  {
+    "label": "Road Movies",
+    "value": "road_movies"
+  },
+  {
+    "label": "Satirical Films",
+    "value": "satirical_films"
+  },
+  {
+    "label": "Eco-Cinema",
+    "value": "eco_cinema"
+  },
+  {
+    "label": "Steampunk",
+    "value": "steampunk"
+  },
+  {
+    "label": "Giallo",
+    "value": "giallo"
+  },
+  {
+    "label": "Other Unique Genres",
+    "value": "other_unique_genres"
+  }
+]

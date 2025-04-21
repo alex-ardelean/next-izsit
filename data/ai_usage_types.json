@@ -1,0 +1,22 @@
+[
+  {
+    "label": "None",
+    "value": "none"
+  },
+  {
+    "label": "Low",
+    "value": "low"
+  },
+  {
+    "label": "Moderate",
+    "value": "moderate"
+  },
+  {
+    "label": "High",
+    "value": "high"
+  },
+  {
+    "label": "Fully AI-generated",
+    "value": "fully_ai_generated"
+  }
+]

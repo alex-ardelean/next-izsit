@@ -1,0 +1,82 @@
+[
+  {
+    "label": "Pop",
+    "value": "Pop"
+  },
+  {
+    "label": "Lo-fi",
+    "value": "Lo-fi"
+  },
+  {
+    "label": "Rock",
+    "value": "Rock"
+  },
+  {
+    "label": "Hip-Hop",
+    "value": "Hip-Hop"
+  },
+  {
+    "label": "Jazz",
+    "value": "Jazz"
+  },
+  {
+    "label": "Classical",
+    "value": "Classical"
+  },
+  {
+    "label": "Country",
+    "value": "Country"
+  },
+  {
+    "label": "R&B",
+    "value": "R&B"
+  },
+  {
+    "label": "Electronic",
+    "value": "Electronic"
+  },
+  {
+    "label": "Blues",
+    "value": "Blues"
+  },
+  {
+    "label": "Reggae",
+    "value": "Reggae"
+  },
+  {
+    "label": "Folk",
+    "value": "Folk"
+  },
+  {
+    "label": "Metal",
+    "value": "Metal"
+  },
+  {
+    "label": "Punk",
+    "value": "Punk"
+  },
+  {
+    "label": "Dance",
+    "value": "Dance"
+  },
+  {
+    "label": "World",
+    "value": "World"
+  },
+  {
+    "label": "Alternative/Indie",
+    "value": "Alternative/Indie"
+  },
+  {
+    "label": "Latin",
+    "value": "Latin"
+  },
+  {
+    "label": "Funk",
+    "value": "Funk"
+  },
+  {
+    "label": "Soul",
+    "value": "Soul"
+  }
+]

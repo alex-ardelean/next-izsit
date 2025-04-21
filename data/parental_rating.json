@@ -1,0 +1,18 @@
+[
+  {
+    "label": "G (General Audiences - Suitable for all ages)",
+    "value": "G"
+  },
+  {
+    "label": "PG (Parental Guidance Suggested - Some material may not be suitable for children)",
+    "value": "PG"
+  },
+  {
+    "label": "PG-13 (Parents Strongly Cautioned - Some material may be inappropriate for children under 13)",
+    "value": "PG-13"
+  },
+  {
+    "label": "R (Restricted - Contains adult material; children under 17 require accompanying parent or adult guardian)",
+    "value": "R"
+  }
+]
