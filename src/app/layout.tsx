@@ -1,9 +1,13 @@
+"use client";
 import "../../utils/globalFetch";
 
 import { Inter, DM_Sans, Rajdhani } from "next/font/google";
 import clsx from "clsx";
 import "./globals.css";
 import { GoogleTagManager } from "@next/third-parties/google";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 // Configure Inter font
 const inter = Inter({
@@ -33,6 +37,12 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: false,
+    })
+  }, []);
   return (
     <html
       lang="en"

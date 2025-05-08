@@ -12,7 +12,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({
   showFooter = true,
 }) => {
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen flex-col bg-black">
       <Header />
       <main className="flex-auto">{children}</main>
       {showFooter && <Footer className="mt-auto" />}
