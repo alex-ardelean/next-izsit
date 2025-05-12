@@ -191,7 +191,10 @@ export default function LandingPage() {
           </div>
         </div>
 
-        <div data-aos="fade-up" className="mb-24">
+        <div data-aos="fade-up" className="relative mb-24">
+          <div className="fade-in" className="absolute right-10 -top-24 opacity-25">
+            <Image src="/images/ceo.png" width="600" height="600" className="w-96" alt="app-store-logo" />
+          </div>
           <div className="flex items-center gap-4">
             <div className="w-16 h-[2px] bg-gradient-to-r from-transparent via-primary to-transparent"></div>
             <p className="text-primary text-2xl">CEO of the Year</p>
