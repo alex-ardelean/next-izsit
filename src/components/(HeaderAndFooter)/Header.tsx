@@ -1,9 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { LANDING_NAVITEMS } from "../../../utils/constants";
 
 const navigation = [
   { name: "Join as a Creator", href: "/ai-video-creators" },
@@ -15,11 +17,22 @@ const navigation = [
     href: "https://app.izsit.com",
     badge: true,
   },
-  { name: "Creator Portal", href: "/creator-login" },
+  { name: "Creator Portal", href: "/creator-login", type: 'primary' },
 ];
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [navItems, setNavItems] = useState(navigation);
+  const pathname = usePathname();
+  const currentPage = pathname.split("/")[1];
+  useEffect(() => {
+    console.log("I called");
+    if (currentPage == "landing-page") {
+      setNavItems(LANDING_NAVITEMS);
+    } else {
+      setNavItems(navItems);
+    }
+  }, [pathname]);
 
   return (
     <header className="sticky top-0 bg-gray-900 z-50">
@@ -48,13 +61,13 @@ export default function Header() {
           </button>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
-          {navigation.map((item) => (
+          {navItems.map((item) => (
             <Link
               key={item.name}
               href={item.href}
               target={item.name === "Izsit TV" ? "_blank" : "_self"} // Only open Izsit TV in a new tab
               rel={item.name === "Izsit TV" ? "noopener noreferrer" : undefined} // Add security attributes only for Izsit TV
-              className="text-sm font-semibold text-white flex items-center uppercase"
+              className={`text-sm font-semibold text-white flex items-center uppercase px-4 py-2 rounded-sm ${item?.type == 'primary' ? 'bg-primary' : item?.type == 'secondary' ? 'border border-primary' : 'px-0'}`}
             >
               {item.name}
               {item.badge && (

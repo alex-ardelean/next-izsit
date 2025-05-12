@@ -21,7 +21,7 @@ const Button: React.FC<ButtonProps> = ({
   ...props
 }) => {
   const baseStyle =
-    "flex items-center justify-center gap-2 rounded-sm px-6 py-2 text-white transition-all duration-300";
+    "flex items-center justify-center gap-2 rounded-sm px-6 py-2 text-white text-lg transition-all duration-300";
 
   const buttonStyles = {
     primary: "bg-primary hover:bg-emerald-600",

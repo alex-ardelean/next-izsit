@@ -60,5 +60,23 @@ export const CREATORs = [
         content: `“IZSIT doesn't just feed my creativity—it surprises it.”`,
         role: "Chairman & Co-Founder Startup bootcamp",
     },
-]
+];
 
+export const LANDING_NAVITEMS = [
+    {
+      name: "Izsit TV",
+      href: "https://app.izsit.com",
+    },
+    { name: "Evertrail", href: "https://www.twitch.tv/evertrail" },
+    { name: "Contact", href: "/contact", type: "secondary" },
+    { name: "Creator Login", href: "/creator-login", type: "primary" },
+];
+
+export const WHYIZSIT = [
+    "AI-Generated Films & Series",
+    "Branching, Interactive Storylines",
+    "Infinite, Evolving Worlds",
+    "Creator Revenue + Equity Sharing",
+    "Smart Recommendations via Izsit Chat AI",
+    "Launched Globally on All Major Platforms"
+];
