@@ -75,7 +75,7 @@ export default function ContactUs() {
                 Whether you&apos;re an advertiser, investor, or have a general
                 inquiry, we&apos;d love to hear from you.
               </p>
-              <div className="mt-8">
+              {/* <div className="mt-8">
                 <h3 className="text-lg font-semibold text-white">Follow Us</h3>
 
                 <div className="flex space-x-6 mt-4">
@@ -90,7 +90,7 @@ export default function ContactUs() {
                     </a>
                   ))}
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">
               <div className="rounded-2xl bg-gray-800 p-16">
